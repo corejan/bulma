@@ -1,3 +1,26 @@
-@import "sass/utilities/initial-variables"
+@import "sass/utilities/functions.sass"
+
+$primary-color: #1fc8db
+$primary-color-invert: findColorInvert($primary-color) !default
+$info-color: #42afe3
+$info-color-invert: findColorInvert($info-color) !default
+$success-color: #97cd76
+$success-color-invert: findColorInvert($success-color) !default
+$warning-color: #fce473
+$warning-color-invert: findColorInvert($warning-color) !default
+$danger-color: #ed6c63
+$danger-color-invert: findColorInvert($danger-color) !default
+
+$primary: $primary-color !default
+$info: $info-color !default
+$success: $success-color !default
+$warning: $warning-color !default
+$danger: $danger-color !default
+
+$primary-invert: $primary-color-invert !default
+$info-invert: $info-color-invert !default
+$success-invert: $success-color-invert !default
+$warning-invert: $warning-color-invert !default
+$danger-invert: $danger-color-invert !default
 
 @import "bulma"
